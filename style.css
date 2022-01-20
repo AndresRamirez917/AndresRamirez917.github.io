@@ -22,8 +22,6 @@ body {
   padding: 15px;
   width: 30vw;
   margin: auto;
- 
-
 }
 
 .box {
@@ -57,9 +55,6 @@ body {
   
 }
 
-
-
-
 .msg{
    background: lightyellow;
 }
@@ -68,22 +63,8 @@ input:invalid {
       border-color: #DD2C00;
   }
 
-  input:valid {
+input:valid {
       border-color: green;
   }
 
-   #notify {
-    margin-top: 5px;
-    padding: 10px;
-    font-size: 12px;
-    width: 100%;
-    color: #fff;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-  #notify.error {
-    background-color: #DD2C00;
-  }
+   
